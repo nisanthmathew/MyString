@@ -49,8 +49,9 @@
                          </base-DElement>
                          <object>{af97d43e-8c5c-40c2-b2f0-da8751595577}</object>
                          <name>MyString</name>
-                         <pos>x:200;y:135</pos>
-                         <rect>x:-120;y:-95;w:240;h:190</rect>
+                         <pos>x:240;y:145</pos>
+                         <rect>x:-125;y:-105;w:250;h:210</rect>
+                         <auto-sized>false</auto-sized>
                          <visual-role>6</visual-role>
                         </DObject>
                        </base-DObject>
@@ -60,7 +61,7 @@
                     </item>
                    </qlist>
                   </elements>
-                  <last-modified>1583750904084</last-modified>
+                  <last-modified>1583916924329</last-modified>
                   <toolbarid>Activities</toolbarid>
                  </MDiagram>
                 </base-MDiagram>
@@ -89,49 +90,42 @@
                  <qlist>
                   <item>
                    <MClassMember>
-                    <uid>{aa31cdc5-933e-472e-bdaa-6359fe5962da}</uid>
+                    <uid>{41188170-afbf-43ae-99a8-a78f81f0940c}</uid>
                     <type>1</type>
                     <declaration>char* mystr</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{06349345-b633-4825-b40d-d1dfba151119}</uid>
-                    <type>1</type>
-                    <declaration>MyString &amp;operator</declaration>
-                   </MClassMember>
-                  </item>
-                  <item>
-                   <MClassMember>
-                    <uid>{162ced95-d6a7-4eeb-a175-9963ab695e6c}</uid>
+                    <uid>{9218b39d-b6b9-495b-ab9c-e5aadff7e8ee}</uid>
                     <type>2</type>
                     <declaration>explicit MyString(QObject *parent = nullptr)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{2744434d-22f3-428b-a0ba-f05f36570163}</uid>
+                    <uid>{df411326-3395-433d-b776-0ae0b4d41b7f}</uid>
                     <type>2</type>
                     <declaration>MyString(const char* normalstr)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{72efe43c-ebee-44fc-ab66-6c5f5717fce3}</uid>
+                    <uid>{43d5c75a-f70a-46b2-8adf-2c8fc5642898}</uid>
                     <type>2</type>
                     <declaration>MyString(MyString &amp;copystring)</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{7c13359c-5956-429f-958a-ab91749f2546}</uid>
+                    <uid>{70b9b128-d871-4673-9f7b-e1508a3f71e9}</uid>
                     <type>2</type>
                     <declaration>~MyString()</declaration>
                    </MClassMember>
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{7aea52d7-3e34-49b9-87ae-f1d681fc9e37}</uid>
+                    <uid>{0a12cf57-a23d-4154-ad5a-b2420f269015}</uid>
                     <type>2</type>
                     <properties>4</properties>
                     <declaration>void display(std::ostream&amp; outstream)</declaration>
@@ -139,7 +133,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{05374055-7eac-4c9a-b051-138f572b3989}</uid>
+                    <uid>{f9a40d8b-1626-4e9c-abe3-4363640f10b6}</uid>
                     <type>2</type>
                     <properties>4</properties>
                     <declaration>int getlength()</declaration>
@@ -147,7 +141,7 @@
                   </item>
                   <item>
                    <MClassMember>
-                    <uid>{21ee1c71-f891-4fc1-bb80-e35801f44be6}</uid>
+                    <uid>{0819f9cc-51f2-4f61-872a-5259c8600cd2}</uid>
                     <type>2</type>
                     <properties>4</properties>
                     <declaration>const char* getmystring()</declaration>
