@@ -15,5 +15,8 @@ find_package(Qt5Core)
 
 add_executable(MystringClass
   main.cpp
+  mystring.cpp
+  mystring.h
+  mystringuml.qmodel
 )
 target_link_libraries(MystringClass Qt5::Core)
