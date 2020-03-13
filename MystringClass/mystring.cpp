@@ -35,7 +35,7 @@ MyString::MyString(MyString &&movestring): mystr{movestring.mystr} // move const
 
 MyString::~MyString()
 {
-    std::cout << "destructor called for object with length " << getlength() << " bytes" << std::endl;
+    std::cout << "destructor called" << std::endl;
     delete [] mystr;
 }
 
